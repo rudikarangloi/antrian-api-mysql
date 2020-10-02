@@ -1,0 +1,10 @@
+<?php 
+
+define('host','localhost');
+define('name', 'melawik1_data');
+define('pass', 'melawik1_data');
+define('dbase', 'melawik1_data');
+
+$conn = mysqli_connect(host, name, pass, dbase) or die('Unable to connect');
+
+?>
